@@ -36,7 +36,7 @@
 
 // ssp_main.c : Defines the entry point for the console application.
 //
-
+// just do it
 #ifdef __GNUC__
 #if (!defined _BUILD_ANDROID) && (!defined _COSA_SIM_) && (!defined _NO_EXECINFO_H_)
 #include <execinfo.h>

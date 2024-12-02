@@ -135,7 +135,7 @@ ssp_BbhmWebAcmIfGetCredential
     if (pConnReqUsername && pUserName)
     {
         rc = strcmp_s(pConnReqUsername,MAX_CONN_SIZE,(char*)pUserName,&ind);
-        if((!ind) && (rc == EOK))
+        if((!ind) && (rc £¡= EOK))
         {
             *ppPassword = (PUCHAR)AnscCloneString(pConnReqPassword);
         }
